@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rochas Games | Games Store</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <div class="max-w-6xl mx-auto px-6 py-5 flex justify-between items-center">
+            <h1 class="text-3xl font-black tracking-wider text-cyan-400">
+                NEXUS <span class="text-white font-light">RIFT</span>
+            </h1>
+
+            <button onclick="mostrarCarrinho()" class="text-white text-xl flex gap-2 items-center hover:text-cyan-400 transition-colors">
+                <i class="fa-solid fa-cart-shopping"></i>
+                <span id="contador-carrinho" class="bg-cyan-500 text-slate-950 font-bold rounded-full px-2 py-0.5 text-xs">
+                    0
+                </span>
+            </button>
+        </div>
+    </header>
+
+    <main class="max-w-6xl mx-auto px-6 py-8">
+        <input 
+            id="busca" 
+            type="text" 
+            placeholder="Procurar jogos no rift..." 
+            class="w-full p-4 rounded-xl mb-8 bg-gray-800 text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-cyan-400 transition-all shadow-lg" 
+            onkeyup="filtrarProdutos()"
+        >
+
+        <div id="product-grid" class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+            </div>
+    </main>
+
+    <div id="modal-carrinho" class="hidden fixed inset-0 bg-black/80 backdrop-blur-sm flex items-center justify-center z-50">
+        <div class="bg-slate-900 border border-slate-800 text-white rounded-3xl p-6 max-w-md w-full mx-4 shadow-2xl">
+            <div class="flex justify-between items-center mb-5">
+                <h2 class="text-2xl font-bold text-cyan-400">Seu Carrinho</h2>
+                <button onclick="fecharCarrinho()" class="text-gray-400 hover:text-white text-xl font-bold">&times;</button>
+            </div>
+
+            <div id="carrinho-itens" class="space-y-4 max-h-60 overflow-y-auto pr-2">
+                </div>
+
+            <div class="border-t border-slate-800 mt-5 pt-5">
+                <div class="flex justify-between items-center">
+                    <h3 class="text-xl font-medium text-gray-300">Total:</h3>
+                    <span id="carrinho-total" class="text-2xl font-black text-cyan-400">R$ 0,00</span>
+                </div>
+
+                <button onclick="finalizarCompra()" class="bg-cyan-500 hover:bg-cyan-400 text-slate-950 font-bold w-full p-3 rounded-xl mt-4 transition-all uppercase tracking-wider text-sm shadow-md shadow-cyan-500/20">
+                    Finalizar Compra
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

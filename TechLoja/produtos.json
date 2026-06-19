@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "nome": "Assassin's Creed Mirage",
+    "preco": 239.90,
+    "categoria": "Ação / Aventura",
+    "imagem": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/4jk9umchC6RomrmUMzJj4k/ae72f547328f84428d4b98a663bceec6/acm-page-meta-960x540.jpg",
+    "estoque": 15,
+    "descricao": "Viva a história de Basim, um astuto ladrão de rua em busca de respostas na Bagdá do século IX."
+  },
+  {
+    "id": 2,
+    "nome": "Star Wars Jedi: Survivor",
+    "preco": 299.00,
+    "categoria": "Ficção Científica",
+    "imagem": "https://cdn.cloudflare.steamstatic.com/steam/apps/1774580/header.jpg",
+    "estoque": 10,
+    "descricao": "A história de Cal Kestis continua nesta aventura de ação em terceira pessoa da Respawn Entertainment."
+  },
+  {
+    "id": 3,
+    "nome": "LEGO Star Wars: The Skywalker Saga",
+    "preco": 199.90,
+    "categoria": "LEGO / Família",
+    "imagem": "https://assets.nintendo.com/image/upload/q_auto/f_auto/store/software/switch/70010000018041/e52844f237f452c187db5daec14c3300f45d7be100c1dcff88c7188c8b9b48a9",
+    "estoque": 25,
+    "descricao": "Jogue todos os nove filmes da saga Star Wars em um jogo de LEGO totalmente novo e diferente de qualquer outro."
+  },
+  {
+    "id": 4,
+    "nome": "Grand Theft Auto V",
+    "preco": 109.00,
+    "categoria": "Mundo Aberto",
+    "imagem": "https://cdn.cloudflare.steamstatic.com/steam/apps/271590/header.jpg",
+    "estoque": 40,
+    "descricao": "Explore o world premiado de Los Santos e Blaine County no maior sucesso da Rockstar Games."
+  },
+  {
+    "id": 5,
+    "nome": "Red Dead Redemption 2",
+    "preco": 239.90,
+    "categoria": "Mundo Aberto",
+    "imagem": "https://cdn.cloudflare.steamstatic.com/steam/apps/1174180/header.jpg",
+    "estoque": 12,
+    "descricao": "Uma jornada épica pelo coração dos Estados Unidos no fim da era do faroeste."
+  },
+  {
+    "id": 6,
+    "nome": "Hollow Knight",
+    "preco": 46.99,
+    "categoria": "Metroidvania",
+    "imagem": "https://cdn.cloudflare.steamstatic.com/steam/apps/367520/header.jpg",
+    "estoque": 30,
+    "descricao": "Forje seu próprio caminho em um reino subterrâneo arruinado de insetos e heróis."
+  },
+  {
+    "id": 7,
+    "nome": "Forza Horizon 5",
+    "preco": 249.00,
+    "categoria": "Corrida",
+    "imagem": "https://cdn.cloudflare.steamstatic.com/steam/apps/1551360/header.jpg",
+    "estoque": 8,
+    "descricao": "Sua aventura Horizon definitiva te espera nas paisagens vivas do México."
+  },
+  {
+    "id": 8,
+    "nome": "Resident Evil 4 Remake",
+    "preco": 169.00,
+    "categoria": "Terror",
+    "imagem": "https://cdn.cloudflare.steamstatic.com/steam/apps/2050650/header.jpg",
+    "estoque": 14,
+    "descricao": "Sobrevivência é apenas o começo neste remake completo do clássico de terror."
+  }
+]
